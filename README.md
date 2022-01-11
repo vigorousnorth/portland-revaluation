@@ -102,7 +102,8 @@ All the parcels with a taxable value over $50 million:
 
 	p1[p1$taxableValue21>50000000,]
 
-How taxable values changed in different residential zoning districts (R3 is suburban off-peninsula; R5 is around Deering Center; R6 is on peninsula:) -->
+How taxable values changed in different residential zoning districts (R3 is suburban off-peninsula; R5 is around Deering Center; R6 is on peninsula):
+
 	taxable_pct_change(sfr[sfr$zone == "R3",])
 	taxable_pct_change(sfr[sfr$zone == "R5",])
 	taxable_pct_change(sfr[sfr$zone == "R6",])
