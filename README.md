@@ -16,7 +16,7 @@ First, load the data and take a look:
 
 The `nrow(p)` command should return 22796 rows – note that this doesn't quite include every property record in the city, but it's'about 95 percent of the 24,000 records in the city’s database.
 
-The original scrape missed the 2021 valuation numbers for this CMP property (which appears to be a submarine cable to one of the islands). We'll fill it in by hand here: 
+The original scrape missed the 2021 valuation numbers for [this CMP property](https://assessors.portlandmaine.gov/datalets/datalet.aspx?mode=assessment_history&sIndex=2&idx=1&LMparent=20) (described as a submarine cable to one of the islands). We'll fill it in by hand here: 
 
 	p[22793,]
 	p[22793,]$land21 <- 93917700
